@@ -22,6 +22,8 @@ import javafx.util.Pair;
  */
 public class PersonDaoDynamo implements PersonDao {
 
+    
+    
     private static PersonDaoDynamo orm;
     private static final DynamoDBMapper DB = DynamoDbConnector.getInstance().getDatabase();
 
